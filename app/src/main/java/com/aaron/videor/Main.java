@@ -24,7 +24,6 @@ public class Main extends ActionBarActivity {
         vv=(VideoView)findViewById(R.id.videoView);
         Intent intent = getIntent();
         data = intent.getData();
-        Log.v("ControlCreate",control+"");
         play(data,control);
     }
 
